@@ -7,10 +7,10 @@ public class ViewStore extends Management {
     public static void main(String[] args) {
         loadWatchData("D:\\watchs\\src\\filetxt\\watchs.txt");
 
-        showCustomerMenu();
+        showMenu();
     }
 
-    static void showCustomerMenu() {
+    static void showMenu() {
         while (true) {
             System.out.println("=== Welcome to the Store ===");
             System.out.println("\nCustomer Menu:");

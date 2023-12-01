@@ -9,10 +9,10 @@ public class Management {
     public static void main(String[] args) {
         loadWatchData("D:\\watchs\\src\\filetxt\\watchs.txt");
 
-        showAdminMenu();
+        showMenu();
     }
 
-    static void showAdminMenu() {
+    static void showMenu() {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
